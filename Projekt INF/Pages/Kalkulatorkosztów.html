@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BergBikes</title>
+    <link rel="stylesheet" href="/SCCS/style.css">
+</head>
+<body>
+    <header>
+    
+    </header>
+
+    <script src="/JS/script.js"></script>
+    
+    <script>generateheaders()</script>
+
+    <center>
+    <h1 class="onas">
+    Kalkulator
+    </h1>
+    </center>
+
+    <div class="Kalkulator">
+        <div class="opcja">
+            <label for="">
+            Model:
+            </label>
+            <select name="model" id="model">
+                <option value="5000">Tyee 6 AL - 5000$</option>
+                <option value="5500">Ekano 2 CF - 5500$</option>
+                <option value="7000">Spindrift 5 CF - 7000$</option>
+                <option value="6500">Rage 3 CF - 6500$</option>
+                <option value="7500">Trickshot 2 AL - 7500$</option>
+            
+            </select>
+        </div>
+
+        <div class="opcja">
+            <label for="">
+                Wyposażenie:
+            </label>
+            <select name="Wyposażenie" id="Wyposażenie">
+                <option value="0">Podstawowe + 0$</option>
+                <option value="500">Enduro + 500$</option>
+                <option value="1000">Downhill + 1000$</option>
+            
+            </select>
+        </div>
+
+        <div class="opcja">
+            <label for="">
+            System Tubeless
+            </label>
+            <input type="checkbox" id="Tubeless">
+
+        </div>
+
+        <button onclick="calculatecost()" class="genericbutton">
+        Wylicz
+        </button>
+
+        <script>
+            function calculatecost(){
+                const model = document.getElementById("model")
+                const wyposazenie = document.getElementById("Wyposażenie")
+                const systemtubeless = document.getElementById("Tubeless")
+                let price = parseInt(model.value) + parseInt(wyposazenie.value) + (systemtubeless.checked?1000:0)
+                console.log(price)
+                alert("Cena to: " + price)
+                
+            }
+            createvisionimparedbutton()
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+    </div>
+
+
+</body>
+</html>

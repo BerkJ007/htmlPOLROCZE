@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BergBikes</title>
+    <link rel="stylesheet" href="/SCCS/style.css">
+
+</head>
+<body>
+
+    <script src="/JS/script.js"></script>
+
+    <header>
+
+    </header>
+
+    <script src="/JS/script.js"></script>
+    
+    <script>generateheaders()
+        createvisionimparedbutton()
+    </script>
+
+    <h1 class="onas">
+        Kontakt
+    </h1>
+
+    <div class="formularz" id="contactformularz">
+        
+        <div class="contactfield">
+            <label>
+            Imię i Nazwisko:
+            </label>
+            <input type="text">
+        </div>
+
+        <div class="contactfield">
+            <label>
+            Temat:
+            </label>
+            <input type="text">
+        </div>
+
+        <div class="contactfield">
+            <label>
+            Opis:
+            </label>
+            <input type="text" id="usermessage">
+        </div>
+        
+        <div class="contactfield">
+            <label>
+            Załącznik:
+            </label>
+            <input type="file" name="" id="file_input">
+        </div>
+
+        <br>
+
+<button onclick="send_message()" class="genericbutton" id="sendbutton">
+    wyślij
+</button>
+
+    </div>
+
+
+</body>
+</html>

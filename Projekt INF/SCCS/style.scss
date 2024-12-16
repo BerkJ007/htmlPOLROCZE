@@ -1,0 +1,243 @@
+$color1 : rgb(199, 199, 199);
+
+
+
+
+.header_buttons {
+    align-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header {
+    display: flex;
+  }
+  
+  header img {
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 0 !important;
+  }
+  
+  body {
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #ffffff 1px);
+    background-size: 20px 20px;
+  }
+  
+  .model {
+    background-color: $color1;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
+    border-radius: 5px;
+  }
+  
+  .model:hover {
+    transform: scale(1.2);
+    background-color: #444cf7;
+  }
+  
+  .model img {
+    width: 300px;
+  }
+  
+  .model h4 {
+    font-family: "Fantasy", Copperplate, sans-serif;
+  }
+  
+  .modele {
+    display: flex;
+    gap: 20px;
+    align-content: space-around;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .Kalkulator {
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: $color1;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .genericbutton {
+    background-color: $color1;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(136, 136, 136);
+    font-family: Verdana;
+    font-size: 19px;
+    padding: 6px 13px;
+    text-decoration: none;
+  }
+  
+  .genericbutton:hover {
+    background-color: #444cf7;
+  }
+  
+  .genericbutton:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .redelement {
+    background-color: red !important;
+  }
+  
+  .formularz {
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: $color1;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .contactfield {
+    width: 100%;
+    text-align: left !important;
+    display: flex;
+  }
+  
+  .contactfield input {
+    margin-right: 30px !important;
+    margin-left: auto !important;
+  }
+  
+  .contactfield label {
+    left: 0 !important;
+    margin-left: 0 !important;
+  }
+  
+  #file_input {
+    max-width: 177px;
+  }
+  
+  .onas {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: $color1;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .onas img {
+    width: 750px;
+    background-color: $color1;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .naszamisja {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: $color1;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .naszamisja img {
+    width: 500px;
+    background-color: $color1;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  header button {
+    background-color: #1e417d;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 32px 32px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  header button:hover {
+    background-color: $color1;
+    color: black;
+  }
+  
+  header button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .hidden {
+    height: 0;
+    opacity: 0;
+  }
+  
+  .showanimation {
+    animation-fill-mode: forwards;
+    animation: show 0.5s linear 1;
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .showmenubutton {
+    position: fixed;
+    margin-left: 45%;
+    margin-top: 1%;
+  }
+  
+  .visionbutton {
+    position: absolute;
+    right: 15px;
+    background-color: red;
+    border-radius: 15px;
+    font-size: 30px;
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*# sourceMappingURL=style.css.map */
